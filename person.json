@@ -1,0 +1,9 @@
+{
+    "name": "test",
+    "age": 30,
+    "childen": false,
+    "skills": [
+        "python",
+        "php"
+    ]
+}
