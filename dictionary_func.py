@@ -30,7 +30,7 @@ print(a)
 print(c)
 c.clear()
 print(c)
-del(c)
+del(c) 
 # print(c)
 
 set1 = {1,1,2,2,2,4,5,6}

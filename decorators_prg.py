@@ -32,4 +32,4 @@ def greet(name):
     print('welcome', name)
 
 
-greet('ganavi', 'test', 'test2')
+greet('ganavi', 'test')

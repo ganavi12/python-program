@@ -8,7 +8,8 @@ import numpy as np
 # a = random.randint(1, 999999)
 # a = random.randrange(10, 999999)
 
-mylist = list("ABCDEFGH")
+# mylist = list("ABCDEFGH")
+
 # a = random.choice(mylist)
 # c = random.choices(mylist, k=3)
 # b = random.sample(mylist, 3)
@@ -22,10 +23,10 @@ mylist = list("ABCDEFGH")
 # d = secrets.choice(mylist)
 # print(d)
 
-a = np.random.rand(2, 2)
-b = np.random.randint(0, 10, (3, 4))
-np.random.shuffle(b)
-print(b)
+# a = np.random.rand(2, 2)
+# b = np.random.randint(0, 10, (3, 4))
+# np.random.shuffle(b)
+# print(b)
 
 
 # from random import numpy
@@ -56,7 +57,7 @@ print(b)
 #         res[j].append(f(i))
 # print(res)
 
-a = [1, 2, 3, 5]
+# a = [1, 2, 3, 5]
 
 
 # def test(a):
@@ -84,3 +85,20 @@ a = [1, 2, 3, 5]
 
 # f = Foo()
 # print(f)
+
+
+# import numpy as np
+# x = np.matrix([[1,1,1],
+#                [1,0,1],
+#                [1,1,1]])
+# # y = x.tolist()
+
+# x[:, 0] = 0
+# print(x)
+
+for i in range(0, 3):
+    field = []
+    for j in range(0, 3):
+        x = 1
+        field.append(x)
+    field.append(field) 
