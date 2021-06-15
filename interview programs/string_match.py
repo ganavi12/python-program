@@ -10,7 +10,7 @@ def string_match(s1, s2):
                 elif s1 == s2:
                     return " "
     else:
-        return " "
+        return "false "
     print(n) 
 
 string_match("coding", "ingcod")

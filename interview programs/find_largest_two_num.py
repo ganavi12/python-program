@@ -4,5 +4,7 @@ for i in range(len(a)):
         if a[i] > a[j]:
             a[i], a[j] = a[j], a[i]
      
-# print(a[-1::-1])
+print(a[-1::-1])
 print(a[-1:-3:-1])
+print(a[-1:-3:-1])
+print(a[-1:-2:-1])

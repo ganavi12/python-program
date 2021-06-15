@@ -15,4 +15,4 @@ e2= Employee('test1',3000)
 e2.bonus = 2
 print(e2.payAmount())
 print(Employee.no_of_emp)
-        z
+        

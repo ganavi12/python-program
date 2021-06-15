@@ -3,7 +3,7 @@ n = int(input("enter number"))
 for i in range(n):
     # print(i)
     for j in range(i):
-        print(i, end="")
+        print('*', end=" ")
     print(" ")
 
 # n = int(input(""))

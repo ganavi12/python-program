@@ -3,6 +3,7 @@ l2 = [0, 1, 1, 0, 1, 2, 2, 0, 1]
 l3 = []
 for i in range(len(l1)):
     for j in range(len(l2)):
+        print(i,l2[j])
         if i == l2[j]:
             l3.append(l1[i])
 print(l3)

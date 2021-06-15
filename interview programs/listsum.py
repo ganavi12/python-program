@@ -9,4 +9,10 @@ def largest(a):
     print(max) 
 a = [3,55,6,1,2]
 res = largest(a)
-# print(res) 
+# print(res)
+
+from collections import Counter
+l1 = [1, 2, 3, 4, 5]
+l2 = [4, 5, 6, 7, 7, 8, 9]
+
+print(Counter(l1),Counter(l2))

@@ -7,13 +7,29 @@ x = []
 # print(c)
  
 
-for i in range(len(n)):
-    for j in range(i + 1, len(n)):
-        if n[i] == n[j]:
-            if n[i] in x:
-                x.remove(n[i])
-            else:
-                x.append(n[i])
+# for i in range(len(n)):
+#     for j in range(i + 1, len(n)):
+#         if n[i] == n[j]:
+#             if n[i] in x:
+#                 x.remove(n[i])
+#             else:
+#                 x.append(n[i])
 
 
 print(x)
+
+y = []
+for i in n:
+    if i in y:
+        y.remove(i)
+    else:
+        y.append(i)
+   
+for i in range(len(n)):
+    for j in range(i + 1, len(n)):
+        if n[i] == n[j]:
+            if n[i] in y:
+                y.remove(n[i])
+            else:
+                y.append(n[i])
+print(y)

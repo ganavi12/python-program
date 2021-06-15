@@ -30,14 +30,16 @@
 s = "abcda"
 def string_count(s):
     if len(s) > 0:
-        c = 0
+        # c = 0
         for i in range(len(s)):
-            found = s.count(s[i]) 
-            if found > 0:
-                c = c + 1 
+            found = s.count(s[i])
+            print(found)
+            if found > 1: 
+                return s[i],found
+                # c = c + 1 
             else: 
                 return 0
-            return c
+            return s[i] ,found
 print(string_count(s))
 
             

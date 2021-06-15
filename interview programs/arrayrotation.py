@@ -4,6 +4,7 @@ c = []
 final = []
 def rotate(a, r):
     for i in range(0, len(a)):
+        print(r,i)
         if r <= i:
             b.append(a[i])
         else:

@@ -9,3 +9,8 @@ f2()
 f1 = f2
 f1()
 f2()
+
+
+def sum_func(*args):
+    return sum(args)
+print(sum_func(1,2,3,4,5))
